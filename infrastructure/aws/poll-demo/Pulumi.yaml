@@ -1,0 +1,11 @@
+name: poll-demo
+runtime:
+  name: python
+  options:
+    toolchain: pip
+    virtualenv: venv
+description: The Tailscale poll demo
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-python
